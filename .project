@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>baw-day-7</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.classpath</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/bma-week-7/.classpath</locationURI>
+		</link>
+		<link>
+			<name>Assignment.class</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/bma-week-7/Assignment.class</locationURI>
+		</link>
+		<link>
+			<name>Assignment.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/bma-week-7/Assignment.java</locationURI>
+		</link>
+		<link>
+			<name>Task.class</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/bma-week-7/Task.class</locationURI>
+		</link>
+		<link>
+			<name>TaskTodo.class</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/bma-week-7/TaskTodo.class</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

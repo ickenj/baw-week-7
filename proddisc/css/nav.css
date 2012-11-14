@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+/* CSS Shorthand Clockwise Rule:
+margin: t r b l;
+		t r b;   /* 3 positions specified - applies to top right/left bottom*/
+		t r;  /* 2 positions specified - applies to top/bottom and right/left */
+		t;	 /* 1 position specified - applies to top/right/bottom/left */
+
+}
+
+/* Set nav bar background, borders, and align text */
+
+nav {
+	background-color; yellowGreen;
+	border-top 3px solid black;
+	border-bottom: 3px sold black;
+	text-align: center;
+}
+
+/* Remove margins and padding */
+
+nav, #mail ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style fonts and remove underline */
+
+nav a {
+	padding: 10px;
+	font-size: 110%;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+/* Eliminate list bullets */
+
+nav ul {
+	list-style-type: none;
+}
+
+/* Set hyperlinks as inline elements */
+
+nav li{
+	display:inline-block;
+}
+
+/* Add pseudo class states */
+/* specific order: :focus, :link, :visited, */
+
+#main li:hover a{
+	color: blue;
+	background-color: ghostWhite;
+}
+

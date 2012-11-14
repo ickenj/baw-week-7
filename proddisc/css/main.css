@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+/* CSS Shorthand Clockwise Rule:
+margin: t r b l;
+		t r b;   /* 3 positions specified - applies to top right/left bottom*/
+		t r;  /* 2 positions specified - applies to top/bottom and right/left */
+		t;	 /* 1 position specified - applies to top/right/bottom/left */
+
+
+/* Set the font family to a sans-serif font */
+body {
+	font-family: Verdana, arial, Helvetica, sans-serif;
+	background-image: url('../images/bats.gif');
+	width: 850px;
+	border: 3px solid black;
+}
+
+body, h1,h2,p {
+	padding: 0px;
+}
+
+section {
+	padding: 30px 60px; /* Clockwise rule applies: top, right, bottom, left */
+	margin: 0 auto;
+}
+
+/* Headers */
+
+header img {
+	padding-right: 15px;
+}
+
+header {
+	background-color: black;
+	background-image: -webkit-linear-gradient(45deg, white 0%,
+		orange 75%, black 100%);
+	border-bottom: 2px solid black;
+}
+
+h1, h2, p {
+	margin 0;
+}
+
+h2 {
+	font-size:125%;  /* Make header fonts larger */
+}
+
+header h1 {
+	font-size: 250%;
+}
+
+section h1 {
+	font-size: 140%;
+	margin-bottom: .5em;
+}
+
+section h2 {
+	margin-bottom: .8em 0em .5em 0em;
+}
+
+section p {
+	margin-top: .5em;
+}
+
+hgroup {
+	text-indent: 25px;  /* Indent header text */
+	padding-top: 15px;  /* Add padding to hgroup */
+}
+
+/* Add text shadow */
+p {
+	text-shadow:gray 1px 1px 5px; /* Shadow Color, x-offset, y-offset, blur */
+
+}
+
+/* Add rainbow text shadow to header */
+/*
+#top {text-shadow:3px 3px 0px red,
+				6px 6px 0px orange,
+				9px 9px 0px yellow,
+				12px 12px 0px green,
+				15px 15px 0px blue,
+				18px 18px 0px indigo,
+				21px 21px 0px violet;
+}
+*/
+
+/* Make First letter of header larger - notice the double colon! */
+/*section h1::first-letter {
+	font-size: 250%;
+}
+*/
+
+/* Make bold text orange and blink (doesn't work in Chrome/Webkit) */
+strong {
+	color:orange; 
+	text-decoration:blink;
+}
+
+/* background color */
+section {
+	background-color: white;
+	box-shadow: 0px 9px 18px red;
+	width: 560px;
+}
+
+#top {
+	border-radius: 25px;
+	background-color: lightblue;
+}
+
+footer{
+	background-color: orange;
+	background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%,
+		white 100%);
+	border-top: 2px solid black;
+}
+
+footer p {
+	font-size: 90%;		/* Make fonts in footer smaller */
+	text-align: center; /* Center footer text */
+	padding: 15px;		/* Add padding to footer */
+}
+

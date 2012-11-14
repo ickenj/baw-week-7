@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+
+<meta charset="utf-8" />
+
+<title>CSS3 Selectors</title>
+
+
+
+<style>
+body {
+	font-family: Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border: 3px solid limeGreen;
+	display: inline-block;
+	padding: 0.4em;
+}
+
+th {
+	background-color: chocolate;
+	color: black;
+	padding: 0.4em;
+}
+
+td {
+	padding: 0.4em;
+	height: 21px;
+}
+
+.column1,.column2 {
+	width: 40px;
+}
+
+.column3 {
+	width: 200px;
+}
+
+/* Exercise Starts Here */
+/* tr:nth-child(4n+1) td { */
+tr:nth-child(-n+3) td {
+	background-color: hotPink;
+}
+
+</style>
+
+</head>
+
+<body>
+
+	<h2>US Presidents</h2>
+
+	<table>
+
+		<thead>
+
+			<tr>
+
+				<th class="column1">Index</th>
+
+				<th class="column2">Number</th>
+
+				<th class="column3">US Presidents</th>
+
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+
+				<td>1</td>
+
+				<td>1st</td>
+
+				<td>George Washington</td>
+
+			</tr>
+
+			<tr>
+
+				<td>2</td>
+
+				<td>2nd</td>
+
+				<td>John Adams</td>
+
+			</tr>
+
+			<tr>
+
+				<td>3</td>
+
+				<td>3rd</td>
+
+				<td>Thomas Jefferson</td>
+
+			</tr>
+
+			<tr>
+
+				<td>4</td>
+
+				<td>4th</td>
+
+				<td>James Madison</td>
+
+			</tr>
+
+			<tr>
+
+				<td>5</td>
+
+				<td>5th</td>
+
+				<td>James Monroe</td>
+
+			</tr>
+
+			<tr>
+
+				<td>6</td>
+
+				<td>6th</td>
+
+				<td>John Quincy Adams</td>
+
+			</tr>
+
+			<tr>
+
+				<td>7</td>
+
+				<td>7th</td>
+
+				<td>Andrew Jackson</td>
+
+			</tr>
+
+			<tr>
+
+				<td>8</td>
+
+				<td>8th</td>
+
+				<td>Martin Van Buren</td>
+
+			</tr>
+
+			<tr>
+
+				<td>9</td>
+
+				<td>9th</td>
+
+				<td>William Henry Harrison</td>
+
+			</tr>
+
+			<tr>
+
+				<td>10</td>
+
+				<td>10th</td>
+
+				<td>John Tyler</td>
+
+			</tr>
+
+			<tr>
+
+				<td>11</td>
+
+				<td>11th</td>
+
+				<td>James Polk</td>
+
+			</tr>
+
+			<tr>
+
+				<td>12</td>
+
+				<td>12th</td>
+
+				<td>Zachary Taylor</td>
+
+			</tr>
+
+			<tr>
+
+				<td>13</td>
+
+				<td>13th</td>
+
+				<td>Millard Fillmore</td>
+
+			</tr>
+
+			<tr>
+
+				<td>14</td>
+
+				<td>14th</td>
+
+				<td>Franklin Pierce</td>
+
+			</tr>
+
+			<tr>
+
+				<td>15</td>
+
+				<td>15th</td>
+
+				<td>James Buchanan</td>
+
+			</tr>
+
+			<tr>
+
+				<td>16</td>
+
+				<td>16th</td>
+
+				<td>Abraham Lincoln</td>
+
+			</tr>
+
+			<tr>
+
+				<td>17</td>
+
+				<td>17th</td>
+
+				<td>Andrew Johnson</td>
+
+			</tr>
+
+			<tr>
+
+				<td>18</td>
+
+				<td>18th</td>
+
+				<td>Ulysses S. Grant</td>
+
+			</tr>
+
+			<tr>
+
+				<td>19</td>
+
+				<td>19th</td>
+
+				<td>Rutherford B. Hayes</td>
+
+			</tr>
+
+			<tr>
+
+				<td>20</td>
+
+				<td>20th</td>
+
+				<td>James A. Garfield</td>
+
+			</tr>
+
+			<tr>
+
+				<td>21</td>
+
+				<td>21st</td>
+
+				<td>Chester Alan Arthur</td>
+
+			</tr>
+
+			<tr>
+
+				<td>22</td>
+
+				<td>22nd</td>
+
+				<td>Grover Cleveland</td>
+
+			</tr>
+
+			<tr>
+
+				<td>23</td>
+
+				<td>23rd</td>
+
+				<td>Benjamin Harrison</td>
+
+			</tr>
+
+			<tr>
+
+				<td>24</td>
+
+				<td>24th</td>
+
+				<td>Grover Cleveland</td>
+
+			</tr>
+
+			<tr>
+
+				<td>25</td>
+
+				<td>25th</td>
+
+				<td>William McKinley</td>
+
+			</tr>
+
+			<tr>
+
+				<td>26</td>
+
+				<td>26th</td>
+
+				<td>Theodore Roosevelt</td>
+
+			</tr>
+
+			<tr>
+
+				<td>27</td>
+
+				<td>27th</td>
+
+				<td>William Howard Taft</td>
+
+			</tr>
+
+			<tr>
+
+				<td>28</td>
+
+				<td>28th</td>
+
+				<td>Woodrow Wilson</td>
+
+			</tr>
+
+			<tr>
+
+				<td>29</td>
+
+				<td>29th</td>
+
+				<td>Warren G. Harding</td>
+
+			</tr>
+
+			<tr>
+
+				<td>30</td>
+
+				<td>30th</td>
+
+				<td>Calvin Coolidge</td>
+
+			</tr>
+
+			<tr>
+
+				<td>31</td>
+
+				<td>31st</td>
+
+				<td>Herbert Hoover</td>
+
+			</tr>
+
+			<tr>
+
+				<td>32</td>
+
+				<td>32nd</td>
+
+				<td>Franklin D. Roosevelt</td>
+
+			</tr>
+
+			<tr>
+
+				<td>33</td>
+
+				<td>33rd</td>
+
+				<td>Harry S Truman</td>
+
+			</tr>
+
+			<tr>
+
+				<td>34</td>
+
+				<td>34th</td>
+
+				<td>Dwight D. Eisenhower</td>
+
+			</tr>
+
+			<tr>
+
+				<td>35</td>
+
+				<td>35th</td>
+
+				<td>John F. Kennedy</td>
+
+			</tr>
+
+			<tr>
+
+				<td>36</td>
+
+				<td>36th</td>
+
+				<td>Lyndon Johnson</td>
+
+			</tr>
+
+			<tr>
+
+				<td>37</td>
+
+				<td>37th</td>
+
+				<td>Richard Nixon</td>
+
+			</tr>
+
+			<tr>
+
+				<td>38</td>
+
+				<td>38th</td>
+
+				<td>Gerald Ford</td>
+
+			</tr>
+
+			<tr>
+
+				<td>39</td>
+
+				<td>39th</td>
+
+				<td>Jimmy Carter</td>
+
+			</tr>
+
+			<tr>
+
+				<td>40</td>
+
+				<td>40th</td>
+
+				<td>Ronald Reagan</td>
+
+			</tr>
+
+			<tr>
+
+				<td>41</td>
+
+				<td>41st</td>
+
+				<td>George H. Bush</td>
+
+			</tr>
+
+			<tr>
+
+				<td>42</td>
+
+				<td>42nd</td>
+
+				<td>Bill Clinton</td>
+
+			</tr>
+
+			<tr>
+
+				<td>43</td>
+
+				<td>43rd</td>
+
+				<td>George W. Bush</td>
+
+			</tr>
+
+			<tr>
+
+				<td>44</td>
+
+				<td>44th</td>
+
+				<td>Barack Obama</td>
+
+			</tr>
+
+		</tbody>
+
+	</table>
+
+</body>
+
+</html>

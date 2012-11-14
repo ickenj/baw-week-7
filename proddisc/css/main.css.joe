@@ -1,0 +1,429 @@
+/* Set the font family to a sans-serif font */
+
+body  {
+
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* Make header fonts larger */
+
+h2 {
+
+  font-size: 125%;
+
+}
+
+
+
+header h1 {
+
+  font-size: 250%;
+
+}
+
+
+
+section h1 {
+
+  font-size: 140%;
+
+}
+
+
+
+
+
+/* Make fonts in footer smaller */
+
+footer p {
+
+ font-size: 90%;
+
+}
+
+
+
+/* Indent header text */
+
+hgroup {
+
+  text-indent: 25px;
+
+}
+
+
+
+
+
+/* Center footer text */
+
+footer p {
+
+  text-align: center;
+
+}
+
+
+
+#top {
+
+   text-shadow:
+
+   3px 3px 0px red,
+
+   6px 6px 0px orange,
+
+   9px 9px 0px yellow,
+
+   12px 12px 0px green,
+
+   15px 15px 0px blue,
+
+   18px 18px 0px indigo,
+
+   21px 21px 0px violet;
+
+}
+
+
+
+/* Make First letter of header larger */
+
+section h1::first-letter {
+
+   font-size: 250%;
+
+}
+
+
+
+/* Make bold text orange and blink */
+
+strong {
+
+   color: orange;
+
+   text-decoration: blink;
+
+}
+
+/* background color and image */
+
+
+
+body {
+
+   background-image: url('../images/bats.gif');
+
+}
+
+
+
+section  {
+
+   background-color: white;
+
+}
+
+
+
+header {
+
+       background-color: black;
+
+}
+
+
+
+#top {
+
+   background: lightblue;
+
+}
+
+
+
+
+
+footer {
+
+   background-color: orange;
+
+}
+
+
+
+/* content box width setting */
+
+
+
+body {
+
+   width: 850px;
+
+}
+
+
+
+/* box shadows */
+
+body{
+
+   box-shadow: 0px 9px 18px red;
+
+}
+
+
+
+/* padding box setting */
+
+body, h1, h2, p {
+
+   padding: 0px;
+
+}
+
+
+
+section    {
+
+   padding: 30px 60px;
+
+}
+
+
+
+header img {
+
+   padding-right: 15px;
+
+}
+
+
+
+hgroup {
+
+   padding-top: 15px;
+
+}
+
+
+
+header h2 {
+
+   padding-bottom: 15px;
+
+}
+
+
+
+footer {
+
+   padding: 15px;
+
+}
+
+
+
+/* margin box setting */
+
+body    {
+
+   margin: 0px auto;
+
+}
+
+
+
+h1, h2, p {
+
+   margin: 0px;
+
+}
+
+
+
+section h1 {
+
+   margin-bottom: .5em;
+
+}
+
+
+
+section h2 {
+
+   margin: .8em 0em .5em 0em;
+
+}
+
+
+
+section p {
+
+   margin-top: .5em;
+
+}
+
+
+
+/* border box setting */
+
+body    {
+
+   border: 3px solid black;
+
+}
+
+
+
+section img {
+
+   border: none;
+
+}
+
+
+
+footer {
+
+   border-top: 2px solid black;
+
+}
+
+
+
+#top {
+
+   border-radius: 25px;
+
+}
+
+
+
+
+
+/* linear gradient setting */
+
+header {
+
+   background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+
+}
+
+
+
+footer {
+
+   background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+
+}
+
+
+
+
+
+The HTML Code is below:
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>Homer’s Online Music Shop</title>
+
+<link rel="shortcut icon" href="images/homer.ico" />
+
+<link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+
+<header>
+
+<img src="images/Homer_Rock_and_Roll.jpg" alt="Homer" width="100" height="100" />
+
+<hgroup>
+
+<h1>Homer's Music Store</h1>
+
+<h2>Rock On!</h2>
+
+</hgroup>
+
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="multi_column.html">Layout</a>
+
+<a href="table.html">Tables</a>
+
+<a href="images.html">Graphics</a>
+
+<a href="video.html">Multimedia</a>
+
+<a href="email_form.html">Forms</a>
+
+<a href="product.php">Products</a>
+
+<a href="geolocation.html">Stuff</a>
+
+</nav>
+
+
+</header>
+
+
+
+<section id="container">
+
+<header id="top">
+
+<h1>Everything Is On Sale for Halloween</h1>
+
+</header>
+
+<article>
+
+<h2>Home Page</h2>
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+<p>Click on the <A href="mailto:homer@homermusic.com&Subject=Hello%20Homer">email link</a> to at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolor.</p>
+
+
+
+<h2>Our guarantee</h2>
+
+<p>If you aren't completely satisfied with everything you buy from my site, you can keep it.<strong> No questions asked!</strong></p>
+
+</article>
+
+</section>
+
+
+
+<footer>
+
+<p>&copy; 2012 Homer J. Simpson</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
+
